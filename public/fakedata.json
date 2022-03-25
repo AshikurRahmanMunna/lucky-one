@@ -1,0 +1,62 @@
+[
+    {
+        "id": "01",
+        "name": "Red Luxury BMW",
+        "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648222526~exp=1648223126~hmac=de76e8cce5755b37848ed29f193b6a51e00c9e6fb31c32b79aaaff60adfb7835&w=740",
+        "price": "41000"
+    },
+    {
+        "id": "02",
+        "name": "Modern Sport Car",
+        "img": "https://img.freepik.com/free-photo/generic-brandless-modern-sport-car-with-fire-smoke_110488-1759.jpg?w=740",
+        "price": "42000"
+    },
+    {
+        "id": "03",
+        "name": "Blue Sport BMW",
+        "img": "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?t=st=1648222526~exp=1648223126~hmac=a1312b210d4b28dca4f0160aa88bbee737df4cf660a21cad67d4a71e9ba5f428&w=740",
+        "price": "43000"
+    },
+    {
+        "id": "04",
+        "name": "Good Looking Car",
+        "img": "https://img.freepik.com/free-photo/car-with-sport-modern-design-parked-road_33867-7.jpg?w=826",
+        "price": "44000"
+    },
+    {
+        "id": "05",
+        "name": "White Offroader jeep",
+        "img": "https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?t=st=1648222526~exp=1648223126~hmac=e15d7332711808033ce85a4de493a401c8b7740d26353e8b1d802f5667c4e69d&w=740",
+        "price": "45000"
+    },
+    {
+        "id": "06",
+        "name": "Blue Jeep",
+        "img": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?w=740",
+        "price": "46000"
+    },
+    {
+        "id": "07",
+        "name": "Fake Mercedes",
+        "img": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?w=740",
+        "price": "47000"
+    },
+    {
+        "id": "08",
+        "name": "Tesla Sport Car",
+        "img": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?w=740",
+        "price": "48000"
+    },
+    {
+        "id": "09",
+        "name": "Red Luxury BMW",
+        "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648222526~exp=1648223126~hmac=de76e8cce5755b37848ed29f193b6a51e00c9e6fb31c32b79aaaff60adfb7835&w=740",
+        "price": "49000"
+    },
+    {
+        "id": "10",
+        "name": "White Premium City Crossover",
+        "img": "https://img.freepik.com/free-photo/white-premium-city-crossover-white_101266-526.jpg?w=826",
+        "price": "50000"
+    }
+]

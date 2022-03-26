@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
-import Random from '../Random/Random';
 import './Products.css';
 
 const Products = () => {
@@ -16,19 +15,19 @@ const Products = () => {
         const newCart = [...cart, item];
         setCart(newCart);
     }
-
-    const [randomItem, setRandomItem] = useState({});
     const handleChooseRandom = () => {
         const randomCar = (cart[Math.round(Math.random() * cart.length)]);
+        setCart([]);
         if(!randomCar) {
             handleChooseRandom();
         }
-        else if(randomItem === randomCar) {
-            handleChooseRandom();
+        else if(cart === [randomCar]) {
+            setCart([randomCar])
         }
-        else {
-            setRandomItem(randomCar)
+        else if(!cart) {
+            setCart([]);
         }
+        setCart([randomCar]);
     }
     const chooseAgain = () => {
         setCart([]);
@@ -53,9 +52,6 @@ const Products = () => {
                         key={item.id}
                         item={item}
                     ></Cart>)
-                }
-                {
-                    <Random key={randomItem.id} item={randomItem}></Random>
                 }
 
                 <div className="text-start mt-5">

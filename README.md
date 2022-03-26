@@ -1,15 +1,15 @@
-# Assignment 8 Lucky one
+# [Assignment 8 Lucky one](https://lucky-one-munna.netlify.app/)
 
-This project is Assignment 8 code link [Lucky One](https://github.com/Programming-Hero-Web-Course4/lucky-one-AshikurRahmanMunna).
+Assignment 8 [Lucky One](https://lucky-one-munna.netlify.app/).
 
-## Inactivities
+## `Interactivities`
 
 This Project has cart
 
-### Click On Add To Cart
+### `Click On Add To Cart`
 
 This project has add to cart button. Clicking the button adds to the cart.
 
-### Choose one to select a random product for you
+### `Choose one to select a random product for you`
 
 Click on Choose one to select a random product for you.

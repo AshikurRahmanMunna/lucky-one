@@ -30,6 +30,9 @@ const Products = () => {
             setRandomItem(randomCar)
         }
     }
+    const chooseAgain = () => {
+        setCart([]);
+    }
     return (
         <div className='container row mx-auto'>
             <div className="col-md-8 gx-5 col-sm-12">
@@ -58,7 +61,7 @@ const Products = () => {
                 <div className="text-start mt-5">
                     <button onClick={handleChooseRandom} className='btn btn-outline-success mb-2'>Select One For Me</button>
                     <br />
-                    <button className='btn btn-outline-danger'>Choose Again</button>
+                    <button onClick={chooseAgain} className='btn btn-outline-danger'>Choose Again</button>
                 </div>
             </div>
         </div>

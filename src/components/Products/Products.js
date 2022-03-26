@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Random from '../Random/Random';
 import './Products.css';
 
 const Products = () => {
@@ -14,6 +15,20 @@ const Products = () => {
     const handleAddToCart = (item) => {
         const newCart = [...cart, item];
         setCart(newCart);
+    }
+
+    const [randomItem, setRandomItem] = useState({});
+    const handleChooseRandom = () => {
+        const randomCar = (cart[Math.round(Math.random() * cart.length)]);
+        if(!randomCar) {
+            handleChooseRandom();
+        }
+        else if(randomItem === randomCar) {
+            handleChooseRandom();
+        }
+        else {
+            setRandomItem(randomCar)
+        }
     }
     return (
         <div className='container row mx-auto'>
@@ -36,9 +51,12 @@ const Products = () => {
                         item={item}
                     ></Cart>)
                 }
+                {
+                    <Random key={randomItem.id} item={randomItem}></Random>
+                }
 
                 <div className="text-start mt-5">
-                    <button className='btn btn-outline-success mb-2'>Select One For Me</button>
+                    <button onClick={handleChooseRandom} className='btn btn-outline-success mb-2'>Select One For Me</button>
                     <br />
                     <button className='btn btn-outline-danger'>Choose Again</button>
                 </div>
